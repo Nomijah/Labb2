@@ -1,7 +1,15 @@
+using Labb2.Services;
+using Labb2.Services.IServices;
+using Labb2.Utility;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+builder.Services.AddHttpClient<IBookService, BookService>();
+builder.Services.AddScoped<IBookService, BookService>();
+StaticDetails.BookApiBase = builder.Configuration["ServiceUrls:BookAPI"];
 
 var app = builder.Build();
 

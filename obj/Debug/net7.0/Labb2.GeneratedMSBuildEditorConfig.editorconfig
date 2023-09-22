@@ -12,16 +12,32 @@ build_property.RootNamespace = Labb2
 build_property.ProjectDir = C:\Users\pette\source\repos\Avancerad-Systemutveckling\Labb2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\pette\source\repos\Avancerad-Systemutveckling\Labb2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/pette/source/repos/Avancerad-Systemutveckling/Labb2/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/pette/source/repos/Avancerad-Systemutveckling/Labb2/Views/Book/BookCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pette/source/repos/Avancerad-Systemutveckling/Labb2/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/pette/source/repos/Avancerad-Systemutveckling/Labb2/Views/Book/BookIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pette/source/repos/Avancerad-Systemutveckling/Labb2/Views/Book/DeleteBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGVCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pette/source/repos/Avancerad-Systemutveckling/Labb2/Views/Book/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pette/source/repos/Avancerad-Systemutveckling/Labb2/Views/Book/UpdateBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xVcGRhdGVCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pette/source/repos/Avancerad-Systemutveckling/Labb2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/pette/source/repos/Avancerad-Systemutveckling/Labb2/Views/Shared/Error.cshtml]

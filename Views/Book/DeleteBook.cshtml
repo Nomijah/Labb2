@@ -1,0 +1,50 @@
+﻿@model Book
+
+@{
+    ViewData["Title"] = "DeleteBook";
+}
+
+<div>
+    <form asp-action="DeleteBook">
+        <div class="container border p-3">
+            <hr />
+            <div class="row">
+                <div class="col-2">
+                    <label asp-for="Id" class="control-label pt-2" style="font-size:20px"></label>
+                </div>
+                <div class="col-10 pb-3">
+                    <input asp-for="Id" disabled class="form-control" style="font-size:20px" />
+                </div>
+                <div class="col-2">
+                    <label asp-for="Title" class="control-label pt-2" style="font-size:20px"></label>
+                </div>
+                <div class="col-10 pb-3">
+                    <input asp-for="Title" disabled class="form-control" style="font-size:20px" />
+                </div>
+                <div class="col-2">
+                    <label asp-for="Author" class="control-label pt-2" style="font-size:20px"></label>
+                </div>
+                <div class="col-10 pb-3">
+                    <input asp-for="Author" disabled class="form-control" style="font-size:20px" />
+                </div>
+                <div class="col-2">
+                    <label asp-for="Genre" class="control-label pt-2" style="font-size:20px"></label>
+                </div>
+                <div class="col-10 pb-3">
+                    <input asp-for="Genre" disabled class="form-control" style="font-size:20px" />
+                </div>
+                <div class="col-2">
+                    <label asp-for="Year" class="control-label pt-2" style="font-size:20px"></label>
+                </div>
+                <div class="col-10 pb-3">
+                    <input asp-for="Year" disabled class="form-control" style="font-size:20px" />
+                </div>
+
+                <div class="col-5">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                    <a asp-action="BookIndex">Back to list</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
